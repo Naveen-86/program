@@ -1,9 +1,14 @@
-#!/bin/bash
+#!/bin/bash -x
 
-a=$1
-for ((i=1; i<=$a; i++));
+m=2
+echo "Enter the Power"
+read p
+
+for ((n=o; n<=$p; n++))
 do
-  result=$((2^$i))
-   echo $result
+  r=$(($m**$n))
+  echo $r
 done
+
+
 
